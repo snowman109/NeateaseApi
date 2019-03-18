@@ -1,12 +1,10 @@
 # CloudMusicApi
-网易云音乐API接口获取和分析
+网易云音乐API接口获取和分析，用于完成桌面网易云音乐插件。这只是解析接口，并没有界面内容，界面传送门：https://github.com/snowman109/WPF_Player/tree/master
 
 # csdn地址：
-http://blog.csdn.net/qq_31673689/article/details/78615448
+http://blog.csdn.net/qq_31673689/article/details/78615448。这是我仿照这个博客做的，就是把人家写好的东西整理了一遍。
 
-通过分析各种页面，发现参数加密方式都是一致的，所以这就很简单了，其它的接口也都出来了。下面做个总结：
-
-
+# 以下是原博主的总结
 1、搜索API：
 
 原来的网页地址：
@@ -55,3 +53,15 @@ http://music.163.com/outchain/player?type=2&id=516392300&auto=1&height=66&bg=e8e
 5、评论（热门评论和全部评论）
 516392300这就是歌曲的id
 http://music.163.com/weapi/v1/resource/comments/R_SO_4_516392300?csrf_token=1ac15bcb947b3900d9e8e6039d121a81    
+
+
+# 简单用法
+如果懒得看这些，直接去找out下面的jar文件，通过 java -jar jarName userid 获取到你的歌单和歌单内具体歌曲的信息，默认储存到d盘下的timerconfig目录下。
+
+# 获取userid的方法
+通过网易云官网搜索你的用户名，找到你自己后点进去，url中会有id=xxxxxxxxx 这个就是你的userid。运行上面的方法就会获得你的歌单信息啦！
+
+# 效果展示
+![插件展示](https://raw.githubusercontent.com/snowman109/NeateaseApi/master/show/Snipaste_2019-03-18_19-11-10.png)
+![歌曲](https://raw.githubusercontent.com/snowman109/NeateaseApi/blob/master/show/Snipaste_2019-03-18_19-11-46.png)
+如果展示不出来就自己体现下吧- -

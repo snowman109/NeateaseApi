@@ -63,5 +63,5 @@ http://music.163.com/weapi/v1/resource/comments/R_SO_4_516392300?csrf_token=1ac1
 
 # 效果展示
 ![插件展示](https://raw.githubusercontent.com/snowman109/NeateaseApi/master/show/Snipaste_2019-03-18_19-11-10.png)
-![歌曲](https://raw.githubusercontent.com/snowman109/NeateaseApi/blob/master/show/Snipaste_2019-03-18_19-11-46.png)
-如果展示不出来就自己体现下吧- -
+![歌曲](https://raw.githubusercontent.com/snowman109/NeateaseApi/master/show/Snipaste_2019-03-18_19-11-46.png)
+如果展示不出来就自己体验下吧- -

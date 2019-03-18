@@ -9,13 +9,14 @@ import secret.JSSecret;
 /**
  * Created by MiChong on 2017/11/22 0022.
  *
+ * http://music.163.com/song/media/outer/url?id=
  * 测试搜索功能，包括搜索歌曲，歌手，用户等
  */
 public class Demo3 {
     public static void main(String[] args) {
         try {
-            String music_name="Mi_Chong";
-            UrlParamPair upp = Api.SearchMusicList(music_name,"1002");
+            String music_name="469744940";
+            UrlParamPair upp = Api.SearchMusicList(music_name,"1");
             String req_str = upp.getParas().toJSONString();
             System.out.println("req_str:"+req_str);
             Connection.Response

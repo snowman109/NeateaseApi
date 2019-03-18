@@ -25,7 +25,7 @@ http://music.163.com/weapi/cloudsearch/get/web?csrf_token=
 type类型的不同，搜索的类型不同
 type=1		单曲
 type=10		专辑
-type=100		歌手
+type=100	歌手
 type=1000	歌单
 type=1002	用户
 type=1004	MV

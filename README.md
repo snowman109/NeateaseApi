@@ -55,11 +55,13 @@ http://music.163.com/outchain/player?type=2&id=516392300&auto=1&height=66&bg=e8e
 http://music.163.com/weapi/v1/resource/comments/R_SO_4_516392300?csrf_token=1ac15bcb947b3900d9e8e6039d121a81    
 
 
-# 简单用法
-如果懒得看这些，直接去找out下面的jar文件，通过 java -jar jarName userid 获取到你的歌单和歌单内具体歌曲的信息，默认储存到d盘下的timerconfig目录下。
+# 获取与WPF_Player相匹配的数据
+可以不看代码，直接去找out下面的jar文件，通过 java -jar NeteaseApi.jar userid 命令获取到你的歌单和歌单内具体歌曲的信息，这些信息会默认储存到d盘下的timerconfig目录下。这里的userid就是你网易云用户的id，以下是获取userid的方法。
 
 # 获取userid的方法
-通过网易云官网搜索你的用户名，找到你自己后点进去，url中会有id=xxxxxxxxx 这个就是你的userid。运行上面的方法就会获得你的歌单信息啦！
+1、通过网易云官网搜索你的用户名。
+
+2、找到你自己后点进去，url中会有id=xxxxxxxxx 这个就是你的userid。
 
 # 效果展示
 ![插件展示](https://raw.githubusercontent.com/snowman109/NeateaseApi/master/show/Snipaste_2019-03-18_19-11-10.png)
